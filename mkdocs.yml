@@ -1,0 +1,16 @@
+site_name: MkDocs Investigation
+theme:
+  name: mkdocs
+nav:
+  - Home: index.md
+  - Articles:
+    - Article 1: article1.md
+    - Article 2: article2.md
+plugins:
+  - search:
+      separator: '[\s\-]+'
+      min_search_length: 3
+      prebuild_index: true
+      lang: en
+      indexing: full
+      tags: true
